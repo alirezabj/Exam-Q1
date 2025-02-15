@@ -9,7 +9,7 @@ Players should only be able to view the card details. I define an interface  `Ca
 
 ```java
 /**
- * interface for read-only card access for Players
+ * interface for read-only card access for players
  */
 interface CardView {
     /**
