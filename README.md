@@ -173,6 +173,15 @@ class Card implements CardView {
 }
 ```
 
+##### Consequences: 
+1. Encapsulation: The card's details cannot be changed directly because they are private
+2. Class invariant: cost and damage must be positive and title and type cannot be empty
+3. Controlled modification (admins can edit, players cannot): admins can update card details using setter methods such as (setTitle(), setCost()), but only with valid values. On the other hands, players can only view card details and cannot change them.
+
+
+
+   
+
 
 
 
