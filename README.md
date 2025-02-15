@@ -1,6 +1,6 @@
 # Exam-Q1
 
-For this question, , in order to solve the two tasks, I will employ the principle of encapsulation. In other words, I will design a read-only interface for players and an editable class so that administrators can edit card details. 
+For this question, in order to solve the two tasks, I will employ the principle of encapsulation. In other words, I will design a read-only interface for players and an editable class so that administrators can edit card details. 
 
 
 ### Read-only view for players (Card Interface):
