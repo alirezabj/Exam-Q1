@@ -184,8 +184,8 @@ class Card implements CardView {
 The database is modeled as an in-memory array or list of Card objects. Both structures are suitable, but a List<Card> is preferred due to its dynamic resizing and convenient methods for searching, updating, and managing cards efficiently.
 
 ##### Operations:
-- Player View: Players access the database via a List<CardView>, which is derived from the original List<Card> by exposing only the CardView interface. This ensures that players can only read card data but cannot modify it.
-- Admin View: Administrative staff access the full List<Card> object to update, add, or modify card details.
+- Player View: Players access the database via a List<CardView>, which is derived from the original List<Card> by exposing only the `CardView` interface. This ensures that players can only read card data but cannot modify it.
+- Admin View: Administrative staff access the full `List<Card>` object to update, add, or modify card details.
 
 
    
